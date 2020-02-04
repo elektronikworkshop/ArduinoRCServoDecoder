@@ -58,7 +58,8 @@ public:
     return pulseIn(m_pinNr, HIGH);
   }
 
-  /** Read the mapped value from the RC channel.
+  /** Read the the RC channel and return the mapped value according to the
+   * mapping passed in the constructor.
    */
   Value read() const
   {
